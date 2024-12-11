@@ -1,0 +1,44 @@
+Arrow function:-
+()=> exp
+
+(para1,para2)=>exp
+
+()=>{
+    statement;
+}
+
+(para1,para2)=>{
+    statement;
+}
+
+example-  const greet=()=>{
+    console.log("hello");
+}
+
+greet();
+=>const greet :- function expression.
+=>()=>{
+    console.log("hello");
+} :- arrow function;
+
+let square= (num)=>{
+    return num*num};
+
+console.log(square(3));
+
+
+2. Call-back function;
+
+-A callback function is passed as an arguemnt to another function.
+  =>when we pass a function as an argument to another function it is called a callback function.
+
+function (num,callback)=>{
+    console.log(num)
+}
+  
+  
+3. Callback hell
+ setTimeOut(func,miliseconds);async function
+ usecase:- we get a pop up after a specified time while scrolling website to enter email and password-
+
+
